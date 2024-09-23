@@ -11,18 +11,37 @@
 <body>
     <header>
     <!-- navigation-bar -->
+    <div id="head"></div>
     <nav id="header">
+        
         <div class="nav-bar">
+           
+            <p class="name" id="name">Aya</p>
             
-            <span class="name" id="name">Aya</span>
+         
             <ul class="nav-list">
                 
-                    <li class="list"><a href="#name">About me</a></li>
+                    <li class="list"><a href="#head">About me</a></li>
                     <li class="list"><a href="#skills">skills</a></li>
                     <li class="list"><a href="#services">services</a></li>
                     <li class="list"><a href="#projects">Projects</a></li>
                     <li class="list"><a href="#contact">Contact</a></li>
             </ul>
+           
+            
+        </div>
+        <div class="shrink">
+            <i class="fa-solid fa-bars">
+            
+            <div class="dropdown">
+                
+                    <li class="list"><a href="#head">About me</a></li>
+                    <li class="list"><a href="#skills">skills</a></li>
+                    <li class="list"><a href="#services">services</a></li>
+                    <li class="list"><a href="#projects">Projects</a></li>
+                    <li class="list"><a href="#contact">Contact</a></li>
+                </i>
+            </div>
         </div>
     </nav>
 </header>  
@@ -61,12 +80,16 @@
            <p> I possess a solid foundation in HTML and CSS, allowing me to create visually appealing and responsive web designs. Proficiency in Photoshop enhances my ability to craft stunning graphics and user interfaces. I believe that continuous skill improvement is crucial in the ever-evolving tech landscape; it not only keeps me competitive but also enables me to deliver innovative and high-quality work.</p>
         </div>
         <div class="skills-details">
-            <div class="text">
+            <div class="text-s">
                 
                 <img src="html.png" alt="personalIMG" width="100">
                 <p>HTML</p>
+            </div>
+                <div class="text-s">
                 <img src="css.png" alt="personalIMG" width="100">
                 <p>CSS</p>
+            </div>
+                <div class="text-s">
                 <img src="ps.png" alt="personalIMG" width="100">
                 <p>Photoshop</p>
             </div>
@@ -168,15 +191,16 @@
  </section>
 <!-- contact me-->
  <section class="contact" id="contact">
-    <div class="contact">
+    <div class="form-all">
+    <div class="contact-title">
         <div class="title">
             <span>Contact Me</span>
         </div>
         <div class="end">
         <div class="contact-topic">Have a project?</div>
         <div >We would love to help.</div>
-        <p >Feel free to get in touch with me.I'm  always open to discusing new projects, creative ideas</p>
-    </div>
+        <p>Feel free to get in touch with me. I'm always open to discusing new projects, creative ideas and future success. Send a messaage.</p>
+        </div>
     </div>
     <div class="form">
         <form action="/submit" method="post">
@@ -193,6 +217,7 @@
                 
             </div>
         </form>
+    </div>
     </div>
 
  </section>
